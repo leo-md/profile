@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://kit.fontawesome.com/4c971d825c.js" crossorigin="anonymous"></script>
+	<title>Profile</title>
+</head>
+
+<body>
+	<div class='containerMestre'>
+		<header>
+			<div class='foto'>
+				<img src='assets/midias/foto.jpg' alt="Minha foto de perfil">
+				<div class='titulo'>
+					<h1>Leonardo Machado Duarte</h1>
+					<h2>FULL STACK DEVELOPER</h2>
+				</div>
+			</div>
+
+			<nav class=menu>
+				<ul>
+					<li><a href="#cursos">Cursos</a></li>
+					<li><a href="#certificados">Certificados</a></li>
+					<li><a href="#formacao">Formação</a></li>
+					<li><a href="#contatos">Contatos</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<hr>
+			<div class="containerPrincipal">
+				<h4 id="cursos"> Meus Cursos</h4>
+				<div class="cursos">
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/acessibilidade-web-front-end-parte-2.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Acessibilidade Web parte 2: componentes acessíveis com um
+								pouco de JavaScript</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-acessibilidade-web-front-end-parte-2"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/acessibilidade-web-front-end-parte-2.pdf"
+								class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/acessibilidade-web-design-inclusivos.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Acessibilidade Web: crie desingns inclusivos</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-acessibilidade-web-design-inclusivos"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/acessibilidade-web-design-inclusivos.pdf"
+								class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/javascript-manipulando-dom.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">JavaScript: manipulando o DOM</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-javascript-manipulando-dom"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/javascript-manipulando-dom.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/css-grid-layout.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">CSS Grid: Simplificando layouts</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-css-construindo-layouts-grid"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/css-grid-layout.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/posicione-elementos-com-flexbox.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Flexbox: Posicione elementos na tela</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-posicione-elementos-com-flexbox"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/flexbox.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/seo-otimizacao-sites.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">SEO: Otimizacao de Sites</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-seo-otimizacao-sites"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/seo.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/scrum-parte-6.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Scrum parte 6: Revisão, retrospectiva e encerramento</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-scrum-parte-6" class="card__body__link"
+								target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/scrum-parte-6.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/scrum-parte-5.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Scrum parte 5: Executando projetos com Agile</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-scrum-parte-5" class="card__body__link"
+								target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/scrum-parte-5.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/scrum-parte-4.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Scrum parte 4: Planejando projetos com Agile</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-scrum-parte-4" class="card__body__link"
+								target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/scrum-parte-4.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/scrum-parte-3.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Scrum parte 3: Projetos com Agile</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-scrum-parte-3" class="card__body__link"
+								target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/scrum-parte-3.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/scrum-parte-2.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Scrum parte 2: o Manifesto Ágil, liderança e organização em
+								Scrum</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-scrum-parte-2" class="card__body__link"
+								target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/scrum-parte-2.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/scrum-parte-1.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Scrum parte 1: gerencie o seu projeto de forma ágil</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-scrum-parte-1" class="card__body__link"
+								target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/scrum-parte-1.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/agile-na-pratica.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Agile na prática: técnicas aplicadas para Gestão Ágil</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-agile-na-pratica" class="card__body__link"
+								target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/agile-na-pratica.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/kanban-primeiros-passos.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Kanban parte 1: fundamentos essenciais</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-kanban-analises-implementacao"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/kanban-primeiros-passos.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/customer-success-foco-no-cliente.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Estratégias de Customer Success: foco no cliente</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-customer-success-cultura-centrada-cliente"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/customer-success-foco-no-cliente.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/agile-scrum.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Scrum: agilidade em seu projeto</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-agile-scrum" class="card__body__link"
+								target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/agile-scrum.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/git-github-repositorio-commit-versoes.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Git e GitHub: repositório, commit e versões</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-git-github-repositorio-commit-versoes"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/git-github-repositorio-commit-versoes.pdf"
+								class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/business-intelligence-introducao-inteligencia-empresarial.svg"
+								class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Business Intelligence: trabalhando com Data Warehouse</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-business-intelligence-introducao-inteligencia-empresarial"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/business-intelligence-introducao-inteligencia-empresarial.pdf"
+								class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/logica-programacao-pratica-com-desenho-animacoes-em-jogo.svg"
+								class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">JavaScript e HTML: pratique lógica com desenhos, animações
+								e um jogo</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-logica-programacao-pratica-com-desenho-animacoes-em-jogo"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/logica-programacao-pratica-com-desenho-animacoes-em-jogo.pdf"
+								class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/vendas-alta-performance.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Vendas de alta performance: vendas na era digital</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-vendas-alta-performance"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/vendas-alta-performance.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/javascript-web-paginas-dinamicas.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">JavaScript para Web: Crie páginas dinâmicas</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-javascript-web-paginas-dinamicas"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/javascript-web-paginas-dinamicas.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/wordpress-integracao-whatsapp.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Wordpress: integração whatsapp e idiomas</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-wordpress-integracao-whatsapp"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/wordpress-integracao-whatsapp.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/python-intro.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Python para Data Science</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-python-intro" class="card__body__link"
+								target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/python-intro.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/worpress-sites-elementor.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Wordpress: sites com Elementor</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-worpress-sites-elementor"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/worpress-sites-elementor.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/fundamentos-agilidade.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Agilidade: promovendo a transformação digital</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-fundamentos-agilidade"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/fundamentos-agilidade.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/mobile-first-layouts-responsivos.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Layouts Responsivos: trabalhando com layouts mobile</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-css-flexbox-layouts-responsivos"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/mobile-first-layouts-responsivos.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/javascritpt-orientacao-objetos.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">JavaScript: programando a Orientação a Objetos</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-javascritpt-orientacao-objetos"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/javascritpt-orientacao-objetos.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/javascript-introducao.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">JavaScript: explorando a linguagem</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-javascript-introducao"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/javascript-introducao.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/acessibilidade-web-front-end.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Acessibilidade web parte 1: tornando seu front-end
+								inclusivo</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-acessibilidade-web-front-end"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/acessibilidade-web-front-end.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/linux-ubuntu.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Linux I: conhecendo e utilizando o terminal</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-linux-ubuntu" class="card__body__link"
+								target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/linux-ubuntu.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/git-github-controle-de-versao.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Git e GitHub: controle e compartilhe seu código</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-git-github-controle-de-versao"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/git-github-controle-de-versao.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/javascript-manipulacao-dom.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">JavaScript na Web: manipule o DOM com JavaScript</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-javascript-manipulacao-dom"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/javascript-manipulacao-dom.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/html5-css3-avancando-css.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">HTML5 e CSS3 parte 4: avançando no CSS</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-html5-css3-avancando-css"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/html5-css3-avancando-css.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/html5-css3-formularios-tabelas.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas
+							</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-html5-css3-formularios-tabelas"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/html5-css3-formularios-tabelas.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/html5-css3-posicionamento-listas-navegacao.svg"
+								class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">HTML5 e CSS3 parte 2: posicionamento, listas e navegação
+							</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-html5-css3-posicionamento-listas-navegacao"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/html5-css3-posicionamento-listas-navegacao.pdf"
+								class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/html5-css3-primeiros-passos.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">HTML5 e CSS3 parte 1: crie uma página da Web</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-html5-css3-primeiros-passos"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/html5-css3-primeiros-passos.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/arquitetura-computadores-funcionamento-programa.svg"
+								class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Arquitetura de computadores: por trás de como seu programa
+								funciona</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-arquitetura-computadores-funcionamento-programa"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/arquitetura-computadores-funcionamento-programa.pdf"
+								class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/javascript-listas-lacos.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo">Lógica de programação: laços e listas com JavaScript</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-javascript-listas-lacos"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/javascript-listas-lacos.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/pong-javascript.svg" class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Lógica de programação: comece em lógica com o jogo Pong e
+								JavaScript</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-pong-javascript" class="card__body__link"
+								target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/pong-javascript.pdf" class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/logica-programacao-javascript-html.svg" class="card__header__img"
+								alt="Logo do curso">
+							<h5 class="card__header__titulo"> JavaScript e HTML: desenvolva um jogo e pratique lógica de
+								programação</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-logica-programacao-javascript-html"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/logica-programacao-javascript-html.pdf" class="card__body__certificado"
+								target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+					<div class="cursos__card">
+						<div class="card__header">
+							<img src="assets/midias/aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento.svg"
+								class="card__header__img" alt="Logo do curso">
+							<h5 class="card__header__titulo">Aprender a aprender: técnicas para seu desenvolvimento
+							</h5>
+						</div>
+						<div class="card__body">
+							<a href="https://www.alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+								class="card__body__link" target="_blank">
+								<i class="fa-solid fa-magnifying-glass"></i>Detalhes
+							</a>
+							<a href="assets/docs/aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento.pdf"
+								class="card__body__certificado" target="_blank">
+								<i class="fa-solid fa-file-circle-check"></i>Certificado
+							</a>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<h4 id="certificados">Certificados</h4>
+				<div class="accordion accordion-flush" id="accordionFlushExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-heading04">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapse04" aria-expanded="false"
+								aria-controls="flush-collapse04">
+								<i class="fa-solid fa-eye-low-vision"></i>Desenvolvimento de aplicações Web
+								acessíveis
+							</button>
+						</h2>
+						<div id="flush-collapse04" class="accordion-collapse collapse accordion__box"
+							aria-labelledby="flush-heading04" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body accordion__texto">Essa capacitação encina como melhorar a
+								experiência dos usuários PCDs com boas
+								práticas de Acessibilidade em Front-End.
+							</div>
+							<div class="accordion__logo">
+								<img src="assets/midias/logo-alura.svg" alt="Logo da Alura">
+								<a href="assets/docs/formacao-acessibilidade.pdf" class="card__body__certificado"
+									target="_blank">
+									<i class="fa-solid fa-file-circle-check"></i>Certificado
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingOne">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseOne" aria-expanded="false"
+								aria-controls="flush-collapseOne">
+								<i class="fa-solid fa-microchip"></i>Iniciante em Programação
+							</button>
+						</h2>
+						<div id="flush-collapseOne" class="accordion-collapse collapse accordion__box"
+							aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body accordion__texto">O caminho das pedras para entrar no universo da
+								programação e começar com a criação de sites utilizando as linguagens populares CSS,
+								HTML e JavaScript.
+							</div>
+							<div class="accordion__logo">
+								<img src="assets/midias/logo-alura.svg" alt="Logo da Alura">
+								<a href="assets/docs/programacao-iniciante.pdf" class="card__body__certificado"
+									target="_blank">
+									<i class="fa-solid fa-file-circle-check"></i>Certificado
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseTwo" aria-expanded="false"
+								aria-controls="flush-collapseTwo">
+								<i class="fa-solid fa-money-bill-trend-up"></i>CPA20
+							</button>
+						</h2>
+						<div id="flush-collapseTwo" class="accordion-collapse collapse accordion__box"
+							aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body accordion__texto">A
+								<strong>CPA-20 (Certificação Profissional ANBIMA Série 20)</strong> é destinada aos
+								profissionais que atuam na distribuição de produtos de investimento para clientes dos
+								segmentos varejo alta renda, private, corporate e investidores institucionais em
+								agências bancárias ou em plataformas de atendimento.
+							</div>
+							<div class="accordion__logo">
+								<img src="assets/midias/logo-anbima.png" alt="Logo da ANBIMA">
+								<a href="assets/docs/CPA20.pdf" class="card__body__certificado" target="_blank">
+									<i class="fa-solid fa-file-circle-check"></i>Certificado
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseThree" aria-expanded="false"
+								aria-controls="flush-collapseThree">
+								<i class="fa-solid fa-wheat-awn"></i>Mestre Cervejeiro
+							</button>
+						</h2>
+						<div id="flush-collapseThree" class="accordion-collapse collapse accordion__box"
+							aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body accordion__texto">Mais do que atestar a minha capacitação formal
+								na preparação de tal bebida, essa certificação também está aqui para representar todo
+								uma trajetória que vai além da esfera profissional e que é representada
+								nos ícones abaixo.
+								<div class="accordion__box__icones">
+									<abbr title="Cerveja"><i class="fa-solid fa-beer-mug-empty"></i></abbr>
+									<abbr title="Rock'n'Roll"><i class="fa-solid fa-hand-fist"></i></abbr>
+									<abbr title="Star Wars"><i class="fa-solid fa-jedi"></i></abbr>
+									<abbr title="RPG de mesa"><i class="fa-solid fa-dice-d20"></i></abbr>
+									<abbr title="Terra Média"><i class="fa-solid fa-hat-wizard"></i></abbr>
+									<abbr title="Filmes e séries"><i class="fa-solid fa-film"></i></abbr>
+									<abbr title="Livros"><i class="fa-solid fa-book"></i></abbr>
+									<abbr title="Codar"><i class="fa-solid fa-laptop-code"></i></abbr>
+									<abbr title="Pets"><i class="fa-solid fa-paw"></i></abbr>
+									<abbr title="Ciência"><i class="fa-solid fa-flask"></i></abbr>
+									<abbr title="Espaço"><i class="fa-solid fa-rocket"></i></abbr>
+									<abbr title="Aliens"><i class="fa-brands fa-discord"></i></abbr>
+								</div>
+							</div>
+							<div class="accordion__logo">
+								<img src="assets/midias/logo-ufrgs.png" alt="Logo da UFRGS">
+								<a href="assets/docs/cerveja-artesanal.pdf" class="card__body__certificado"
+									target="_blank">
+									<i class="fa-solid fa-file-circle-check"></i>Certificado
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<h4 id="formacao">Formação</h4>
+				<div class="formacao">
+					<div class="card formacao__card">
+						<img src="assets/midias/logo-senac.png" class="card-img-top" alt="...">
+						<div class="card-body formacao__texto">
+							<h5 class="card-title">Graduação</h5>
+							<h6>Análise e Desenvolvimento de sistemas</h6>
+							<h7>Em andamento</h7>
+						</div>
+					</div>
+					<div class="card formacao__card">
+						<img src="assets/midias/logo-unyleya.png" class="card-img-top" alt="...">
+						<div class="card-body formacao__texto">
+							<h5 class="card-title">Pós-Graduação</h5>
+							<h6>MBA Executivo em Investimentos - Modelo CEA</h6>
+							<h7>Conclusão em 05/10/2020</h7>
+						</div>
+					</div>
+					<div class="card formacao__card">
+						<img src="assets/midias/logo-ufrgs.png" class="card-img-top" alt="...">
+						<div class="card-body formacao__texto">
+							<h5 class="card-title">Graduação</h5>
+							<h6>Licenciatura em Ciências Biológicas</h6>
+							<h7>Conclusão em 19/07/2014</h7>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<h4 id="contatos">Contatos</h4>
+				<a class="btn btn-danger" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+					aria-controls="offcanvasExample">
+					Cartão de visitas
+				</a>
+				<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+					aria-labelledby="offcanvasExampleLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title cartao__titulo" id="offcanvasExampleLabel" margin-left="30px">Cartão de visitas</h5>
+						<button type="button" class=" btn btn-close btn-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						<hr>
+					</div>
+					<div class="cartao">
+						<div class="cartao__capa">
+							<img src="assets/midias/cartao-capa.jpg" alt="">
+						</div>
+						<div class="cartao__texto">
+							<h3 class="cartao__nome">Leonardo Machado Duarte</h3>
+							<h4 class="cartao__cargo">FULL STACK DEVELOPER</h4>
+							<h4 class="cartao__mail">leoduarte.ti@gmail.com</h4>
+							<div class="cartao__lista">
+								<a class="cartao__btn"
+									href='https://www.linkedin.com/in/leonardo-machado-duarte-41683a71/'
+									target="_blank">
+									<i class="fa-brands fa-linkedin"></i>
+									<p>Linkedin</p>
+									<i class="fa-solid fa-circle-arrow-right"></i>
+								</a>
+								<a class="cartao__btn" href='https://github.com/leo-md' target="_blank">
+									<i class="fa-brands fa-github"></i>
+									<p>Github</p>
+									<i class="fa-solid fa-circle-arrow-right"></i>
+								</a>
+								<a class="cartao__btn" href='https://codepen.io/leo-md' target="_blank">
+									<i class="fa-brands fa-codepen"></i>
+									<p>Codepen</p>
+									<i class="fa-solid fa-circle-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+			</div>
+		</main>
+		<footer>Atualizado em 16/02/2023</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
